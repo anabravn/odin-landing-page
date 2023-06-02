@@ -2,7 +2,6 @@
     box-sizing: border-box;    
 }
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -12,33 +11,43 @@ body {
     background-color: #1F2937;
 }
 
-
-.footer {
+.section, .header, .footer {
+    padding: 0 10%;
     width: 100%;
-    padding: 40px 10%;
+}
+
+.footer, .header {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     display: flex;
-    justify-content: center;
     align-items: center;
 
-}
-.header {
-    padding: 20px 10%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
     background-color: #1F2937aa;
     color: white;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.header {
+    justify-content: space-between;
+    position: fixed;
 }
 
 h1 {
     font-size: 50px;
     font-weight: 700;
-    margin: 0;
-    padding: 0;
 }
 
-p {
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+h1, h2, h3, p {
     padding: 0;
     margin: 0;
 }
@@ -46,6 +55,33 @@ p {
 a {
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer, .one {
+    background-color: #1F2937;
+    color: white;
+}
+
+.one {
+    margin-top: 50px;
+    color: #e5e7eb;
+}
+
+.two, .four {
+    background-color: white;
+}
+
+.three {
+    background-color: #e5e7eb;
+    color: #1f2937;
 }
 
 .button a {
@@ -58,11 +94,6 @@ a {
     padding: 10px 30px;
     margin: 20px 0;
     display: inline-block;
-}
-
-.section {
-    padding: 80px 10%;
-    width: 100%;
 }
 
 .logo {
@@ -96,73 +127,26 @@ a {
     flex-shrink: 0;
 }
 
-.footer, .one {
-    background-color: #1F2937;
-    color: white;
+.image-info {
+    width: 100%;
+    flex-shrink: 0;
 }
 
-.one {
-    margin-top: 50px;
-}
-
-.one p {
-    color: #e5e7eb;
-}
-
-.two {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-}
-
-.three {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.quote {
+.quote, .callout {
     width: 80%;
 }
+
 .quote p {
     font-size: 30px;
     font-style: italic;
     font-family: "Georgia", serif;
 }
 
-.author {
+.quote .author {
     padding:10px;
     text-align: right;
     font-weight: 700;
     font-size: 28px;
-}
-
-h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 36px;
-    color: #1f2937;
-}
-
-
-h3 {
-    padding: 0;
-    margin: 0;
-}
-
-.border {
-    width: 100%;
-    flex-shrink: 0;
-}
-
-.four {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
 }
 
 .callout {
@@ -173,7 +157,6 @@ h3 {
     display: flex;
     align-items: center;
     gap: 50px;
-    width: 80%;
 }
 
 .callout .button {
