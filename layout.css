@@ -3,9 +3,6 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 0;
 }
 
@@ -38,8 +35,8 @@ h1, h2, h3, p {
 }
 
 .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,13 +63,20 @@ h1, h2, h3, p {
    display: flex; 
    align-items: center;
    justify-content: space-between;
-   gap: 32px;
+   gap: 30px;
    padding: 20px;
 }
 
+.item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .image-header {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     flex-shrink: 0;
 }
 
@@ -81,13 +85,14 @@ h1, h2, h3, p {
     flex-shrink: 0;
 }
 
-.quote, .callout {
-    width: 80%;
+.quote {
+    margin: 0 10%;
+    padding: 20px;    
 }
 
 .callout {
     display: flex;
     align-items: center;
-    gap: 50px;
-    padding: 26px 10%;
+    gap: 20px;
+    padding: 20px 30px;
 }
