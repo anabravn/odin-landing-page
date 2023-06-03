@@ -45,7 +45,7 @@ h1, h2, h3, p {
     padding: 10px 30px;
     margin: 20px 0;
     display: inline-block;
-    flex-shrink: 0;
+    width: 125px;
 }
 
 .header ul {
@@ -102,4 +102,8 @@ h1, h2, h3, p {
     align-items: center;
     gap: 20px;
     padding: 20px 30px;
+}
+
+.callout .button {
+    flex-shrink: 0;
 }
