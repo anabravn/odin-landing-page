@@ -12,10 +12,7 @@ body {
 }
 
 .footer, .header {
-    height: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+    height: 80px;
     display: flex;
     align-items: center;
 }
