@@ -26,7 +26,6 @@ body {
 
 .header {
     justify-content: space-between;
-    position: fixed;
 }
 
 h1, h2, h3, p {
@@ -64,30 +63,32 @@ h1, h2, h3, p {
    display: flex; 
    align-items: center;
    justify-content: space-between;
-   gap: 30px;
-   padding: 20px;
-}
-
-.two .container {
-    flex-wrap: wrap;
+   justify-items: center;
+   flex-wrap: wrap;
+   gap: 50px;
 }
 
 .item {
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
     gap: 20px;
     width: 200px;
 }
 
+.text {
+    flex: 2;
+}
+
 .image-header {
-    width: 40%;
-    height: 40%;
-    flex-shrink: 0;
+    width: 200px;
+    flex: 1;
 }
 
 .image-info {
-    width: 100%;
+    width: 80%;
     flex-shrink: 0;
 }
 
