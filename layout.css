@@ -67,11 +67,16 @@ h1, h2, h3, p {
    padding: 20px;
 }
 
+.two .container {
+    flex-wrap: wrap;
+}
+
 .item {
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 200px;
 }
 
 .image-header {
