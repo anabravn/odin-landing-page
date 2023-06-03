@@ -7,9 +7,10 @@ body {
     color: white;
 }
 
-h1 {
+.one h1 {
     font-size: 50px;
     font-weight: 700;
+    color: white;
 }
 
 h2 {
